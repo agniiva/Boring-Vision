@@ -6,6 +6,13 @@ from seo_tool import train_model
 import requests
 import re
 
+# Setting the page config to keep the sidebar always open
+st.set_page_config(
+    initial_sidebar_state="expanded",
+    page_title="Boring Vision 📊",
+    page_icon="📊"
+    )
+
 def is_valid_email(email):
     # Basic regex for email validation
     return bool(re.match(r"[^@]+@[^@]+\.[^@]+", email))
