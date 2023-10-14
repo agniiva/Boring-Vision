@@ -9,7 +9,7 @@ import re
 # Setting the page config to keep the sidebar always open
 st.set_page_config(
     initial_sidebar_state="expanded",
-    page_title="Boring Vision 📊",
+    page_title="Boring Vision",
     page_icon="📊"
     )
 
